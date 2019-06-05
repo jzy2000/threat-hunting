@@ -1,4 +1,4 @@
-# Various Ways of Remote Execution on Windows
+# Examine Ways of Remote Execution on Windows
 
 *   PsExecSvc Remote Execution
     *   Search System Event ID 7045 (A new service was installed in the system) when PsExec service is installed
