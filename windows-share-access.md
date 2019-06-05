@@ -1,0 +1,11 @@
+# Look for Network Share Access
+- Search Security Event ID 4624 (An account was successfully logged on)
+  - Filter by “Logon Type”=3
+  - Extract caller info stored in “Source IP/Logon User Name” field 
+- Search Security Event ID 4672 (Special privileges assigned to new logon) for a user logon with administrative privileges
+- Search Security Event ID 4776 (The domain controller attempted to validate the credentials for an account) including authenticating to Local System
+  -  Extract caller info stored in “Source Host Name/Logon User Name” field
+- Search Domain Controller Event ID 4769 (A Kerberos service ticket was requested)
+  - Extract “Destination Host Name/Logon User Name” and “Source IP”
+- Search Security Event ID 5140 (A network share object was accessed)
+  - Check ‘Share Name’ field for windows shares ADMIN$, C$ were shared.
