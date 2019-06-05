@@ -4,7 +4,7 @@ Examine shell history files for each user account on the system (`.bash_history`
 
 Indications that `.bash_history` has been altered or evaded is a noteworthy indicator of compromise.
 
-Consider Osquery to fetch the command history if the OS has it installed.
+Consider Osquery to fetch the command history if the OS has it installed: `select * from shell_history`
 
 Look for any unusual commands, in particular:
 
