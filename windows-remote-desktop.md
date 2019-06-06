@@ -1,5 +1,7 @@
 # Look for Remote Desktop Access
 
+
+
 *   Search Windows-Remote-Desktop-Services-Rdp-CoreTS-Operational Event ID:
     *    131 – Connection Attempts
         *   Extract IP in “Source IP” field
@@ -15,5 +17,8 @@
     *   Extract caller info stored in “Source IP/Logon User Name” field 
 *   Search Security Event ID 4778/4779 (A session was reconnected/disconnected to a Window Station)
     *   Extract caller info stored in “IP Address of Source/Source System Name”, “Logon User Name” fields
-*   Search in ShimCache and AmCache for first time execution: rdpclip.exe, tstheme.exe.
-*   Search Prefetch folder which records RDP executables: C:\Windows\Prefetch\rdpclip.exe-{hash}.pf  C:\Windows\Prefetch\tstheme.exe-{hash}.pf
+*   Search in ShimCache and AmCache for first time execution: \
+_rdpclip.exe_, _tstheme.exe_.
+*   Search Prefetch folder which records RDP executables: \
+_C:\Windows\Prefetch\rdpclip.exe-{hash}.pf_  \
+_C:\Windows\Prefetch\tstheme.exe-{hash}.pf_
