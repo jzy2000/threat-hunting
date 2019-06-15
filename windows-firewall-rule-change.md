@@ -1,0 +1,13 @@
+Search Security Event logs related to Windows Firewall for unauthorized rule change events:
+- 4946: A change has been made to Windows Firewall exception list. A rule was added
+- 4947: A change has been made to Windows Firewall exception list. A rule was modified
+- 4948: A change has been made to Windows Firewall exception list. A rule was deleted
+- 4949 Windows Firewall settings were restored to the default values.
+- 4950: A Windows Firewall setting has changed
+- 4954 Windows Firewall Group Policy settings has changed. The new settings have been applied
+- 4956 Windows Firewall has changed the active profile.
+- 5025 The Windows Firewall Service has been stopped
+- 5030 The Windows Firewall Service failed to start
+- 5034 The Windows Firewall Driver has been stopped
+- 5035 The Windows Firewall Driver failed to start
+- 5050: An attempt to programmatically disable the Windows Firewall
