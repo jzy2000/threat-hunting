@@ -1,4 +1,4 @@
-# Search for Persistence and Backdoors
+# Examine Persistence and Backdoors
 
 Any remote console service or network enabled daemon is a likely target for a back door. Examine the various timestamps for these files to determine if they have been modified more recently than expected. For example, all three timestamps can be examined for `/usr/bin/sshd` with these commands:
 
