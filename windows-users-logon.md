@@ -27,4 +27,4 @@ Search for many failed logon events followed by successful 4624 logon event.
   - Event ID 4672 Special privileges assigned to new logon
 Any "super user" account logons
 
-Also check logs of other remote access methods if any, such as VNC, RDP, or S/FTP, and perform the same analysis on the access logs for those services, check Look for Various Ways of Remote Execution, Look for Remote Desktop Access and Network Share Access sections for possible remote access & execution. 
+Also check logs of other remote access methods if any, such as VNC, RDP, or S/FTP, and perform the same analysis on the access logs for those services, check Look for Various Ways of Remote Execution, Remote Desktop Access and Network Share Access sections for possible remote access & execution. 
